@@ -1,4 +1,4 @@
-package WebCrawler;
+package com.kristogodari.webcrawler;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
@@ -21,7 +21,7 @@ public class WebCrawler {
         this.visitedLinks = new ArrayList<String>();
     }
 
-    public void crowl(String url){
+    public void crawl(String url){
 
         this.linksQueue.add(url);
         this.visitedLinks.add(url);
